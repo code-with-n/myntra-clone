@@ -1,0 +1,128 @@
+/* wishlist */
+.wish{
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: white;
+    grid-gap: 10px;
+    transition: all 0.5s ease-in;
+}
+
+/* listItem */
+.wishListContainer{
+    
+    width: 250px;
+    height: 310px;
+    margin:  2%  2%;
+    border: 1px solid rgb(216, 216, 216);
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.2s ease-in
+}
+.wishListContainer:hover{
+    scale: 1.02;
+    box-shadow: 7px 10px rgb(194, 190, 190);
+}
+.imageBox{
+    height: 65%;
+    width: 100%;
+}
+.imageBox img{
+    height: 100%;
+    width: 100%;
+}
+
+/* priceBox */
+.priceBox{
+    width: 98%;
+    background-color: white;
+    height: 10%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.orginalPrice{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    font-size: smaller;
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    text-decoration: line-through;
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+
+.discountPrice{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    font-weight: bolder;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.moveDelete{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 12%;
+    width: 98%;
+    background-color: white;
+    display: flex;
+}
+.move{
+    
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: center;
+    height: 100%;
+    /* border: 1px solid black; */
+    color: white;
+    /* background-color: blueviolet; */
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: scale 0.1s ease-in;
+
+}
+.move:hover{
+    scale: 0.98;
+    box-shadow: 1px 2px rgb(235, 226, 226);
+
+}
+.move:active{
+    scale: 1.02;
+    box-shadow: 1px 2px rgb(235, 226, 226);
+}
+.delete{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+    
+    background-color: white;
+    
+    color: black;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 10px;
+    transition: all 0.1s ease-in;
+
+}
+.delete:hover{
+    border: 1px solid rgb(201, 199, 199);
+    scale: 0.98;
+}
+.delete:active{
+    scale: 1.02;
+}

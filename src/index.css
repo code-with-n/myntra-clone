@@ -1,0 +1,10 @@
+.imageBox{
+    width: 100%;
+    border: 1px solid black;
+    height: 100%;
+    position: absolute;
+    background-color: blueviolet;
+}
+*{
+    /* scroll-behavior: smooth; */
+}

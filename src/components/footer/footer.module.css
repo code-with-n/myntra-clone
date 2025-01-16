@@ -1,0 +1,22 @@
+.Footer{
+    margin-top: 3%;
+    width: 100%;
+    /* background-color: rgb(132, 128, 128); */
+    background-color: white;
+    border: 1px solid black;
+    height: 100px;
+    align-items: center;
+    justify-content: center ;
+    grid-gap: 10px;
+    display: flex;
+}
+.Part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 90%;
+    /* background-color: black */
+    border: 1px solid black;
+
+}

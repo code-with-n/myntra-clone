@@ -1,0 +1,240 @@
+.secContainer{
+    width: 100%;
+    /* border: 1px solid rgb(135, 3, 3); */
+    /* height: 100vh; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 2%;
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+
+/* itemBox desiging.. */
+
+.itemBox{
+    border: 1px solid rgb(228, 222, 222);
+    border-radius: 10px;
+    margin: 2% 2%;
+    height: 380px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+    /* border: 1px solid black; */
+    transition: all  0.2s ease-in;
+}
+.itemBox:hover{
+    scale: 1.04;
+    box-shadow: 10px 6px rgb(212, 206, 206);
+}
+.itemImage{
+    width: 100%;
+    display: flex;
+    height: 65%;
+    /* border: 1px solid black; */
+    /* background-color: rgb(113, 152, 35); */
+}
+.itemImage img{
+    border-radius: 10px;
+    width: 100%;;
+    height: 100%;
+}
+
+/* wishlist */
+.wishlist{
+    /* background-color: red; */
+    position: relative;
+    /* left: 50px; */
+    background-color: transparent;
+    color: black;
+    right: 20px;
+    font-size: 25px;
+    display: inline;
+    cursor: pointer;
+}
+/* }
+.itemOverview{
+    width: 90%;
+    height: 9%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price{
+    height: 100%;
+    width: 50%;
+    background-color: green;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buy{
+    height: 100%;
+    width: 50%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemOption{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 9%;
+    justify-content: center;
+    background-color: beige;
+} */
+.purchaseRating{
+    width: 90%;
+    height: 6%;
+    /* border: 1px solid black; */
+    display: flex;
+    background-color: white;
+
+    align-items: center;
+
+}
+.purchase{
+    margin-left: 10px;
+    background-color: white;
+
+}
+.brandName{
+    background-color: white;
+    
+    width: 90%;
+    height: 10%;
+    /* border: 1px solid black; */
+    display: flex;
+    
+    flex-direction: column;
+}
+.companyName{
+    background-color: white;
+
+    height: 70%;
+    font-size: medium;
+    /* font-size: 17px; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.itemName{
+    background-color: white;
+
+    height: 30%;
+    margin-bottom: 100%;
+    
+    /* font-weight: 100; */
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-size: 14px; */
+}
+
+.priceOff{
+    background-color: white;
+
+    display: flex;
+    width: 90%;
+    /* border: 1px solid black; */
+    
+    height: 4%;
+    font-size: small;
+    margin-top: 2%;
+}
+.oldPrice{
+    background-color: white;
+
+    text-decoration: line-through;
+    margin-left: 2%;
+}
+
+.addToCart{
+
+    border-radius: 10px;
+    width: 49%;
+    height: 100%;
+    background-color: rgb(87, 169, 87);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    transition: scale 0.2s ease;
+}
+.addToCart:hover{
+    scale: 0.98;
+}
+.addToCart:active{
+    scale: 1.02;
+}
+
+.background{
+    border-radius: 10px;
+    width: 49%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    transition: scale 0.2s ease;
+}
+
+.addWish{
+    display: flex;
+    width: 99%;
+    height: 10%;
+    justify-content: space-between;
+    background-color: white;
+
+}
+.addwishButton{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    transition: scale 0.2s ease-out;
+}
+.addwishButton:hover{
+    scale: 0.92;
+}
+.addwishButton:active{
+    scale: 1.02;
+    /* background-color: green; */
+}
+.CiHeart{
+    color: black;
+    font-size: 30px;
+    /* background-color: white; */
+    background-color: white;
+}
+
+.wishback{
+    background-color: rgb(234, 30, 30);
+}
+.heartBack{
+    background-color: white;
+    background-color: rgb(234, 30, 30);
+
+    color: rgb(251, 251, 251);
+}
+
+.off{
+    position: relative;
+    left: 10px;
+    color: navy;
+    font-weight: bolder;
+}

@@ -1,0 +1,11 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: initial;
+    background-color:  rgb(247, 247, 247);
+    /* background-color: #f5f5f6; */
+
+}
+.container{
+    
+    width: 100%;
+}
